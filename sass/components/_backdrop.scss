@@ -48,7 +48,7 @@
     pointer-events: none;
 }
 .form1 p {
-    font-family: 'Roboto';
+    @extend %font-familyRB;
     font-style: normal;
     @include font(700, 20px, 23px);
     text-align: center;
@@ -61,7 +61,7 @@
 .modal-form .label {
     display: block;
     margin-bottom: 4px;
-    font-family: 'Roboto';
+    @extend %font-familyRB;
     font-style: normal;
     @include font(400, 12px, 14px);
     letter-spacing: 0.01em;
@@ -91,7 +91,7 @@
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    font-family: 'Roboto';
+    @extend %font-familyRB;
     font-style: normal;
     @include font(400, 12px, 14px);
     letter-spacing: 0.01em;
@@ -145,7 +145,7 @@ label{
     display: block;
     margin: auto;
     padding: 10px 52px;
-    font-family: 'Roboto';
+    @extend %font-familyRB;
     font-style: normal;
     @include font(700, 16px, 30px);
     display: flex;
@@ -163,7 +163,7 @@ label{
 .check {
     display: flex;
     align-items: center;
-    font-family: 'Roboto';
+    @extend %font-familyRB;
     font-style: normal;
     @include font(400, 14px, 24px);
     letter-spacing: 0.03em;

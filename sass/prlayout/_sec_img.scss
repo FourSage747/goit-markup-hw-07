@@ -44,7 +44,7 @@
     p {
         position: absolute;
         top: 0;
-        font-family: 'Roboto';
+        @extend %font-familyRB;
         font-style: normal;
         @include font(400, 18px, 27px);
         /* or 156% */

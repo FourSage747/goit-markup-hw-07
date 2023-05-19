@@ -22,9 +22,16 @@ body {
   margin: 0 auto;
 }
 
+.email, .form button, .form h3, .div h3, .div2 p {
+  font-family: "Roboto";
+}
+
+.logo1, .logo {
+  font-family: "Raleway";
+}
+
 .logo {
   text-decoration: none;
-  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1923076923;
@@ -197,7 +204,6 @@ section {
 .div2 p {
   position: absolute;
   top: 0;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -288,7 +294,6 @@ footer {
 
 .logo1 {
   text-decoration: none;
-  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1923076923;
@@ -320,7 +325,6 @@ footer {
   margin-left: 70px;
 }
 .div h3 {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -367,7 +371,6 @@ footer {
   gap: 12px;
 }
 .form h3 {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -380,7 +383,6 @@ footer {
 }
 .form button {
   padding: 10px 28px;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -403,7 +405,6 @@ footer {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

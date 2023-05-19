@@ -16,3 +16,11 @@ body {
     font-size: $fs;
     line-height: $ln / $fs;
 }
+
+%font-familyRB{
+    font-family: "Roboto";
+}
+
+%font-familyRL{
+    font-family: "Raleway";
+}
